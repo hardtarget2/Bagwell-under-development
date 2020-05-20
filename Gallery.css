@@ -1,0 +1,148 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------------------------------------- */
+html body{
+  background: url(https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
+}
+
+body{
+  background: blueviolet;
+  margin: 20px;
+  padding: 0;
+}
+
+	/* NavBar */
+
+  .logo{
+    height:75px;
+    width: 200px;
+    }			
+    .nav-item{
+    font-size: 20px;
+    }
+    
+/* ------------------------------------------------------------- */
+
+/* Header */
+
+.header{
+  text-align: center;
+}
+
+.header p{
+  font-style: oblique;
+}
+.header h1{
+  font-style: initial;
+}
+
+/* ------------------------------------------------------------- */
+
+
+
+/* Footer */
+
+.footer{
+  text-align: center;
+}
+
+/* ------------------------------------------------------------- */
+
+/* lightbox gallery */
+
+.container{
+  max-width: 760px;
+  margin: auto;
+  border: white solid 3px;
+  background: blueviolet;
+}
+
+.main-img img, .images img{
+  width: 100%;
+}
+
+.images{
+  display: grid;
+  /* 4 imgaes per column */ 
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.images img {
+  cursor: pointer;
+}
+
+
+
+/* Fade in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn var(--fade-time) ease-in 1 forwards;
+}
+
+/* Media Queries */
+@media(max-width: 600px) {
+  .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ------------------------------------------------------------- */
+/* Footer */
+
+#footer{
+  text-align: center;
+}
+
+/* ------------------------------------------------------------- */
