@@ -44,7 +44,13 @@ table {
 }
 /* ------------------------------------------------------------- */
 
-/* NavBar */
+body{
+	background-color:#0f0e17 !important;
+}
+
+
+
+							/* NavBar */
 
 .logo{
 height:75px;
@@ -56,22 +62,59 @@ font-size: 20px;
 
 /* ------------------------------------------------------------- */
 
-/* Footer */
+							/* Footer */
 
 #footer{
 	text-align: center;
   }
   
+#footer p{
+	color: #a7a9be;
+}
+
+#footer .social-icon{
+	color: #ff8906;
+}
   /* ------------------------------------------------------------- */
-/* main img */
+							/* intro */
+#intro{
+	text-align: center;
+	padding-bottom: 50px;
+}
+#intro h1{
+	font-size: 3.5rem;
+	font-weight: 300;
+	font-family: sans-serif;
+	color:#fffffe;
+}
 
   
   /* ------------------------------------------------------------- */
-  
-/* container */
+  							/* Bio */
 
-.frame{
-	background-color: blue;
+#bio{
+	padding: 45px;
+
+}
+#bio ul li{
+	list-style-type: square;
+	list-style-position: inside;
   }
-  
+#bio li{
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #a7a9be;
+}
+
+  /* ------------------------------------------------------------- */
+					  /* color pallet */
+					  
+/* #0f0e17   	background */
+/* #fffffe	  	headlines/button text/main */
+/* #a7a9be		paragraph	   */
+/* #ff8906		button */
+/* #f25f4c		secondary */
+/* #e53170		tertiary */
+
   /* ------------------------------------------------------------- */
