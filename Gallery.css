@@ -59,8 +59,8 @@ body{
 	/* NavBar */
 
   .logo{
-    height:75px;
-    width: 200px;
+    width: 300px;
+	  height:75px;;
     }			
     .navbar-nav .nav-link {
       color: #ff8906 !important;
@@ -69,6 +69,8 @@ body{
     
     .navbar-nav .nav-link:hover {
       color: #e53170 !important;
+	    text-decoration: underline;
+
     }
 /* ------------------------------------------------------------- */
 
@@ -76,6 +78,8 @@ body{
 
 .header{
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .header p{
@@ -91,71 +95,71 @@ body{
 
 /* Footer */
 
-.footer{
+#footer{
   text-align: center;
+  margin-top: 50px;
 }
 #footer p{
 	color: #fffffe;
 }
 
 #footer .social-icon{
-	color: #ff8906;
+  color: #ff8906;
+  
+  
 }
 /* ------------------------------------------------------------- */
+.wrapper{
+  align-content: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  align-content: center;
+  min-height: 100%;
 
-/* lightbox gallery */
-
-.container{
-  max-width: 760px;
-  margin: auto;
-  border: white solid 3px;
-  background: blueviolet;
 }
 
-.main-img img, .images img{
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
   width: 100%;
+  height: auto;
+
 }
 
-.images{
-  display: grid;
-  /* 4 imgaes per column */ 
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5px;
-}
-
-.images img {
-  cursor: pointer;
-}
-
-
-
-/* Fade in animation */
-@keyframes fadeIn {
-  to {
-    opacity: 1;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fadeIn var(--fade-time) ease-in 1 forwards;
-}
-
-/* Media Queries */
-@media(max-width: 600px) {
-  .images {
-    grid-template-columns: repeat(2, 1fr);
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
-/* ------------------------------------------------------------- */
-/* Footer */
 
-#footer{
-  text-align: center;
-}
 
-/* ------------------------------------------------------------- */
+
+
+
+
+
 
 
 

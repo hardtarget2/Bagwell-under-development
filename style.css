@@ -53,8 +53,8 @@ body{
 			/* NavBar */
 
 .logo{
-height:75px;
-width: 200px;
+	width: 300px;
+	height:75px;
 }			
 .navbar-nav .nav-link {
 	color: #ff8906 !important;
@@ -63,6 +63,7 @@ width: 200px;
 
 .navbar-nav .nav-link:hover {
 	color: #e53170 !important;
+	text-decoration: underline;
 }
 /* ------------------------------------------------------------- */
 
