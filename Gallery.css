@@ -73,6 +73,42 @@ body{
 
     }
 /* ------------------------------------------------------------- */
+/* Categories */
+
+.Categories{
+    display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+  	justify-content: center;
+  	align-content: center;
+    min-height: 100%;
+    
+     
+}
+.Categories ul{
+  padding-left: 10px;
+  padding-top: 6px;
+  font-size: 1.1rem;
+}
+.Categories li{
+  display: inline-block;
+  border-right: 1px solid #bbb;
+  padding-right: 5px;
+}
+.Categories li a{
+  text-decoration: none;
+  color: black;
+}
+
+.Categories li a:hover{
+  text-decoration: underline;
+  color: #e53170;
+}
+
+
+
+
+/* ------------------------------------------------------------- */
 
 /* Header */
 
