@@ -88,7 +88,7 @@ body{
 							/* intro */
 .booking{
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 	color: #fffffe
 }
 .booking h1, h2{
@@ -104,17 +104,83 @@ body{
 
 #booking-information{
 	padding: 45px;
+	text-align: center;
+}
+#booking-information p{
+	font-size: 1rem;
+	color: #a7a9be;
 
 }
-#booking-information ul li{
-	
-  }
+#booking-information ol{
+	list-style-type:decimal;
+}
 #booking-information li{
+	display: list-item;
+  	list-style-position: inside;
 	padding-bottom: 20px;
 	font-size: 1.5rem;
 	font-weight: 500;
 	color: #a7a9be;
 }
+  /* ------------------------------------------------------------- */
+#form{
+	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+  	justify-content: center;
+  	align-content: center;
+ 	 min-height: 100%;
+	color:#ff8906 ;
+  
+}
+#form h1{
+	text-align: center ;
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #a7a9be;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+	background-color: #ff8906;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* ------------------------------------------------------------- */
 					  /* color pallet */
