@@ -1,128 +1,208 @@
 /* CSS RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* ------------------------------------------------------------- */
-img{
-	pointer-events: none;
-  }
-
-body{
-	background-color:#0f0e17 !important;
+img {
+  pointer-events: none;
+}
+h1 {
+  font-family: "Titillium Web", sans-serif;
+}
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+body {
+  background-color: #0f0e17 !important;
 }
 
+/* NavBar */
 
-
-							/* NavBar */
-
-.logo{
-	width: 300px;
-	height:75px;
-}			
-
+.logo {
+  width: 300px;
+  height: 75px;
+}
 
 .navbar-nav .nav-link {
-	color: #ff8906 !important;
-	font-size: 1.75rem;
+  color: #ff8906 !important;
+  font-size: 1.75rem;
 }
 
 .navbar-nav .nav-link:hover {
-	color: #e53170 !important;
-	text-decoration: underline;
-
+  color: #e53170 !important;
+  text-decoration: underline;
 }
 
 /* ------------------------------------------------------------- */
 
-							/* Footer */
+/* Footer */
 
-#footer{
-	text-align: center;
-  }
-  
-#footer p{
-	color: #fffffe;
+#footer {
+  text-align: center;
 }
 
-#footer .social-icon{
-	color: #ff8906;
-}
-  /* ------------------------------------------------------------- */
-							/* intro */
-#intro{
-	text-align: center;
-	padding: 50px;
-	color: #fffffe
-}
-#intro h1{
-	font-size: 3.5rem;
-	font-weight: 300;
-	font-family: sans-serif;
-	color:#fffffe;
+#footer p {
+  color: #fffffe;
 }
 
-  
-  /* ------------------------------------------------------------- */
-  							/* Bio */
-
-#bio{
-	padding: 45px;
-
+#footer .social-icon {
+  color: #ff8906;
 }
-#bio ul li{
-	list-style-type: square;
-	list-style-position: inside;
-  }
-#bio li{
-	padding-bottom: 20px;
-	font-size: 1.5rem;
-	font-weight: 500;
-	color: #a7a9be;
+/* ------------------------------------------------------------- */
+/* intro */
+#intro {
+  text-align: center;
+  padding: 50px;
+  color: #fffffe;
+}
+#intro h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #fffffe;
 }
 
-  /* ------------------------------------------------------------- */
-					  /* color pallet */
-					  
+/* ------------------------------------------------------------- */
+/* Bio */
+
+#bio {
+  padding: 45px;
+}
+#bio ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+#bio li {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #a7a9be;
+}
+
+/* ------------------------------------------------------------- */
+/* color pallet */
+
 /* #0f0e17   	background */
 /* #fffffe	  	headlines/button text/main */
 /* #a7a9be		paragraph	   */
@@ -130,4 +210,4 @@ body{
 /* #f25f4c		secondary */
 /* #e53170		tertiary */
 
-  /* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
