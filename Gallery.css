@@ -124,6 +124,9 @@ table {
   border-spacing: 0;
 }
 /* ------------------------------------------------------------- */
+html{
+  scroll-behavior: smooth;
+}
 img {
   pointer-events: none;
 }
@@ -248,8 +251,8 @@ body {
   vertical-align: middle;
   /* width: 100%;
   height: auto; */
-  width: 30vw;
-  height: 30vw;
+  width: 25vw;
+  height: 25vw;
   object-fit: cover;
 }
 
